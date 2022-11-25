@@ -13,8 +13,8 @@ import { LogLevel } from '@azure/msal-browser';
 
 export const msalConfig = {
     auth: {
-        clientId: 'Enter_the_Application_Id_Here', // This is the ONLY mandatory field that you need to supply.
-        authority: 'https://Enter_the_Tenant_Subdomain_Here.ciamlogin.com/', // Replace the placeholder with your tenant subdomain 
+        clientId: '1d35254a-18bb-4fc8-9788-4a333209516f', // This is the ONLY mandatory field that you need to supply.
+        authority: 'https://login.microsoftonline.com/fbe13fed-d294-422b-b507-45115937ffa8', // Replace the placeholder with your tenant subdomain 
         redirectUri: 'http://localhost:3000/redirect', // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
         postLogoutRedirectUri: '/', // Indicates the page to navigate after logout.
         navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
